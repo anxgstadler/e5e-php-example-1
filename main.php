@@ -22,6 +22,7 @@ function entrypoint($event, $context) {
             'quotient' => devide($a, $b),
         ],
         'context' => $context,
+        'event' => $event
     ];
 }
 
