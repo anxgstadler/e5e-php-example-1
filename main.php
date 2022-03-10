@@ -10,6 +10,7 @@ function entrypoint($event, $context) {
     echo "…\n";
 
     return [
+        'secret_text' => 'This text contains some ' . $_ENV['my_secret'] . ' content.',
         'status' => 200,
         'response_headers' => [
             'x-calculation-param-1' => $a,
