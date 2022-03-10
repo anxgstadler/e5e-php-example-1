@@ -21,6 +21,7 @@ function entrypoint($event, $context) {
             'product' => multiply($a, $b),
             'quotient' => devide($a, $b),
         ],
+        'context' => $context,
     ];
 }
 
